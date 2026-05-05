@@ -11,6 +11,11 @@ header {
     padding: 15px 30px;
     background-color: #4e483f;
     color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+      
 }
   
 .logo {
@@ -23,7 +28,7 @@ header {
     gap: 10px;
 }
   
-  .search-container input {
+.search-container input {
     padding: 8px 12px;
     border-radius: 5px;
     border: none;
@@ -46,7 +51,7 @@ header {
 
 body{
     background-color: bisque;
-    padding: 20px;
+    padding: 0px;
     min-height: 100vh;
     display: block;
     justify-content: center; 
@@ -58,6 +63,8 @@ body{
     grid-template-columns: repeat(5, 300px); 
     gap: 20px;
     justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;
 }
 .card{
     background-color: #fff;
